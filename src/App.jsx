@@ -21,7 +21,7 @@ function App() {
   const [words, setWords] = useState([]);
 
   function mergeObjectsWithSameId(array) {
-    console.log(array)
+
     const map = new Map();
     array.forEach(obj => {
       if (map.has(obj.idRow)) {
